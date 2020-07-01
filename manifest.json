@@ -1,8 +1,12 @@
 {
-    "name": "Condution Chrome Extnetion",
+    "name": "Condution Chrome Extention",
     "version": "0.0.1",
     "description": "A Chrome Add On to allow you to interact with the Condution app",
     "manifest_version": 2,
+    "permissions": ["contextMenus", "activeTab", "tabs"],
+    "browser_action":{
+        "default_icon": "logo.png"
+      },
     "icons": {"16": "logo.png",
         "48": "logo.png",
         "128": "logo.png"
