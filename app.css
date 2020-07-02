@@ -1,6 +1,17 @@
 /* # for ID
     . for class */
 
+html {
+  --quickadd-text:#434d5f !important;
+  --special: #dadeae !important;
+  --quickadd: #c04f40 !important;
+  --quickadd-feature: #bf3b2a !important;
+  --quickadd-success: #b1dcbf !important;
+  --quickadd-success-text: #03561f !important;
+  --quickadd-placeholder: #e2c0bc !important;
+  --background-feature: #e5e7ea !important;
+};
+
 #main {
     width: 400px;
     height: 500px;
@@ -14,7 +25,7 @@
 };
 
 #quickadd {
-    background-color:#c04f40;
+    background-color:var(--quickadd);
     margin:20px;
     width:250px;
     height:30px;
@@ -30,5 +41,25 @@
     transition-property:color,background-color;
     transition-duration:200ms;
     transition-timing-function:ease-in-out;
-    color:#ddb8bc
+    color:var(--quickadd-text)
+};
+
+#quickadd::placeholder {
+    color:var(--quickadd-placeholder)
+};
+
+#quickadd.dragover::placeholder {
+    color:var(--quickadd-success-text)!important
+};
+
+#quickadd:hover {
+    background-color:var(--quickadd-feature)
+};
+
+#quickadd:focus {
+    background-color:var(--quickadd-feature)
+};
+
+#quickadd:active {
+    background-color:var(--quickadd-feature)
 };
