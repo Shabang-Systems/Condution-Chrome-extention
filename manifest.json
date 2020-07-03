@@ -13,7 +13,7 @@
         "128": "logo.png"
     },
     "background": {
-        "scripts": ["background.js"],
+        "page":"background.html",
         "persistent": true
       }
   }

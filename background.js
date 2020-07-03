@@ -1,6 +1,9 @@
 //adds context menu for right click
 var contextMenus ={};
 
+import {start, db, perspective} from "./CondutionEngine/CondutionEngine.js";
+console.log(db)
+
 contextMenus.addTask = chrome.contextMenus.create({
         "title":"Add task to inbox",
         "contexts": ["selection"],
