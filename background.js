@@ -18,5 +18,3 @@ chrome.contextMenus.onClicked.addListener(function(info, tab) {
         //do something with var selection
     });
 });
-
-
