@@ -1,7 +1,7 @@
 //adds context menu for right click
 var contextMenus ={};
 
-import {start, db, perspective} from "./CondutionEngine/CondutionEngine.js";
+import {start, db} from "./CondutionEngine/CondutionEngine.js";
 console.log(db)
 
 contextMenus.addTask = chrome.contextMenus.create({
