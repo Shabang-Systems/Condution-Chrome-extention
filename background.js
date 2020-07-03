@@ -2,6 +2,8 @@
 var contextMenus ={};
 
 import {start, db} from "./CondutionEngine/CondutionEngine.js";
+
+start(firebase)
 console.log(db)
 
 contextMenus.addTask = chrome.contextMenus.create({
