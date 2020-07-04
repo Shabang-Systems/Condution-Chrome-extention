@@ -18,5 +18,6 @@ chrome.contextMenus.onClicked.addListener(function(info, tab) {
     }, function(selection) {
         var selected = selection[0];
         //do something with var selection
+        //USAGE: db.FUNCTION (as defined in ObjectManager)
     });
 });
