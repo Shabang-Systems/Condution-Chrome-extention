@@ -1,6 +1,7 @@
 /* # for ID
     . for class */
 
+/*
 html {
   --quickadd-text:#434d5f !important;
   --special: #dadeae !important;
@@ -11,6 +12,7 @@ html {
   --quickadd-placeholder: #e2c0bc !important;
   --background-feature: #e5e7ea !important;
 };
+*/
 
 #main {
     width: 400px;
@@ -25,7 +27,7 @@ html {
 };
 
 #quickadd {
-    background-color:var(--quickadd);
+    background-color:#c04f40;
     margin:20px;
     width:250px;
     height:30px;
@@ -36,9 +38,9 @@ html {
     border:0;
     border-radius:7px;
     padding:3px 1px 3px 10px;
-    box-shadow:1px 1px 3px var(--background-feature);
+    box-shadow:1px 1px 3px #e5e7ea;
     font-size:14px;
-    transition-property:color,background-color;
+    transition-property:color, background-color;
     transition-duration:200ms;
     transition-timing-function:ease-in-out;
     color:var(--quickadd-text)
