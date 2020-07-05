@@ -15,5 +15,6 @@
     },
     "background": {
         "page":"background.html"
-      }
+      },
+    "web_accessible_resources": ["app.css"]
   }

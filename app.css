@@ -1,6 +1,7 @@
 /* # for ID
     . for class */
 
+/*
 html {
   --quickadd-text:#434d5f !important;
   --special: #dadeae !important;
@@ -12,20 +13,29 @@ html {
   --background-feature: #e5e7ea !important;
 };
 
-#main {
-    width: 400px;
-    height: 500px;
+*/
+body {
+    height: 700 !important;
+    width: 500 !important;
 };
 
-#ffht {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 300px;
-    color: yellowgreen;
-    size: 300px;
+#title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    padding-bottom: 0;
+    height: 500;
+    width: 300;
 };
+
+#upcoming {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+};
+
 
 #quickadd {
-    background-color:var(--quickadd);
+    background-color:#c04f40;
     margin:20px;
     width:250px;
     height:30px;
@@ -36,30 +46,32 @@ html {
     border:0;
     border-radius:7px;
     padding:3px 1px 3px 10px;
-    box-shadow:1px 1px 3px var(--background-feature);
+    box-shadow:1px 1px 3px #e5e7ea;
     font-size:14px;
-    transition-property:color,background-color;
+    transition-property:color, background-color;
     transition-duration:200ms;
     transition-timing-function:ease-in-out;
-    color:var(--quickadd-text)
+    color:black
 };
 
+/*
 #quickadd::placeholder {
-    color:var(--quickadd-placeholder)
+    color:#e2c0bc
 };
 
 #quickadd.dragover::placeholder {
-    color:var(--quickadd-success-text)!important
+    color:#03561f!important
 };
 
 #quickadd:hover {
-    background-color:var(--quickadd-feature)
+    background-color:#bf3b2a
 };
 
 #quickadd:focus {
-    background-color:var(--quickadd-feature)
+    background-color:#bf3b2a
 };
 
 #quickadd:active {
-    background-color:var(--quickadd-feature)
+    background-color:#bf3b2a
 };
+*/
