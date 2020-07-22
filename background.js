@@ -17,8 +17,6 @@ chrome.contextMenus.onClicked.addListener(function(info, tab) {
         code: "window.getSelection().toString();"
     }, function(selection) {
         var selected = selection[0];
-        //do something with var selection
-        //USAGE: db.FUNCTION (as defined in ObjectManager)
-        db.newTask("LLs1Oq5JE7Xgcq2nUv8As5Qxjji1", selected)
+        
     });
 });
