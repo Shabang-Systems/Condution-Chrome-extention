@@ -1,5 +1,8 @@
 //require firebase code
 
+email = document.getElementById("email")
+password = document.getElementById("password")
+
 firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
     // Handle Errors here.
     var errorCode = error.code;
